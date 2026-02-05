@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     environment: str = Field(default="dev")
     project_name: str = Field(default="AI Inbox Assistant")
     database_url: str = Field(default="sqlite:///./inbox.db")
+    secret_key: str = Field(default="change-me")
+    session_cookie_name: str = Field(default="inbox_session")
 
     # OAuth / Gmail
     google_client_id: str = Field(default="")
