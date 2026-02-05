@@ -49,3 +49,9 @@ Quick checklist to pause now and resume smoothly later.
 - Completed: DB models
 - Completed: Google OAuth login flow
 - Next: Gmail email fetcher (last N days)
+
+## Status note (pre-filled)
+- Date: 2026-02-05
+- Last completed step: Google OAuth login flow (read-only Gmail scopes)
+- Next step to implement: Gmail email fetcher (last N days)
+- Blockers/questions: None identified
